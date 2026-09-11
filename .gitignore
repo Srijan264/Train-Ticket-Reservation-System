@@ -1,2 +1,18 @@
-/build/
-/target/
+# Compiled class files
+target/
+*.class
+
+# Eclipse configuration files
+.classpath
+.project
+.settings/
+.jsdtscope
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Logs and temporary files
+*.log
+*.tmp
