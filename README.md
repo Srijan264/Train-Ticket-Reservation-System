@@ -38,7 +38,7 @@ A full-stack, web-based Train Ticket Reservation System developed using **Java S
 
 | User Profile | Change Password |
 | :---: | :---: |
-| ![User Profile](Screenshots/viewprofile.png) | ![Change Password](Screenshots/passwordchange.png) |
+| <img src="Screenshots/viewprofile.png" width="100%" /> | <img src="Screenshots/passwordchange.png" width="100%" /> |
 
 ---
 
