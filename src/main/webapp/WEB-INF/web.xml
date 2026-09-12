@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>Train Ticket Reservation System</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>UserLogin</servlet-name>
+        <servlet-class>com.srijan.servlets.UserLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogin</servlet-name>
+        <url-pattern>/userlogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserRegister</servlet-name>
+        <servlet-class>com.srijan.servlets.UserRegister</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegister</servlet-name>
+        <url-pattern>/userreg</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLogin</servlet-name>
+        <servlet-class>com.srijan.servlets.AdminLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogin</servlet-name>
+        <url-pattern>/adminlogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddTrain</servlet-name>
+        <servlet-class>com.srijan.servlets.AddTrain</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTrain</servlet-name>
+        <url-pattern>/adminaddtrain</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookTrains</servlet-name>
+        <servlet-class>com.srijan.servlets.BookTrains</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookTrains</servlet-name>
+        <url-pattern>/booktrains</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Canceltrain</servlet-name>
+        <servlet-class>com.srijan.servlets.Canceltrain</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Canceltrain</servlet-name>
+        <url-pattern>/canceltrain</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TrainBwStn</servlet-name>
+        <servlet-class>com.srijan.servlets.TrainBwStn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TrainBwStn</servlet-name>
+        <url-pattern>/trainbwstn</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FareEnquiry</servlet-name>
+        <servlet-class>com.srijan.servlets.FareEnquiry</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FareEnquiry</servlet-name>
+        <url-pattern>/fareenq</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SeatAvailability</servlet-name>
+        <servlet-class>com.srijan.servlets.SeatAvailability</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SeatAvailability</servlet-name>
+        <url-pattern>/seatavail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserProfile</servlet-name>
+        <servlet-class>com.srijan.servlets.UserProfile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserProfile</servlet-name>
+        <url-pattern>/viewuserprofile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditUserProfile</servlet-name>
+        <servlet-class>com.srijan.servlets.EditUserProfile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditUserProfile</servlet-name>
+        <url-pattern>/edituserprofile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangeUserPassword</servlet-name>
+        <servlet-class>com.srijan.servlets.ChangeUserPassword</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeUserPassword</servlet-name>
+        <url-pattern>/changeuserpassword</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.srijan.servlets.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+</web-app>
